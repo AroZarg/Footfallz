@@ -55,6 +55,9 @@ ul,
 ol {
   list-style: none;
 }
+#header{
+  background-color: black;
+}
 ul,
 ol {
   padding: 0;
@@ -168,14 +171,15 @@ hr {
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  padding: 14px 34px;
-  letter-spacing: 1px;
+  padding: 2% 5%; 
+  letter-spacing: 0.1%; 
   margin: 0;
-  font-size: 15px;
+  font-size: 100%; 
   font-weight: 500;
-  border-radius: 25px;
+  border-radius: 25px; 
   transition: all 0.5s linear;
   border: 0;
+  
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -208,15 +212,14 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(../img/WhatsApp\ Image\ 2024-10-21\ at\ 23.02.45_3525ab7c.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.721);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -262,6 +265,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  display: flex;
   padding: 100px 0;
 }
 #about h3 {

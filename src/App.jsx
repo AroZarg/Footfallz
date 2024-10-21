@@ -11,6 +11,15 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { About1 } from "./components/about1";
+import { About2 } from "./components/about1 copy";
+import { About3 } from "./components/about1 copy 8";
+import { About4 } from "./components/about1 copy 7";
+import { About5 } from "./components/about1 copy 6";
+import { About6 } from "./components/about1 copy 5";
+import { About7 } from "./components/about1 copy 4";
+import { About8 } from "./components/about1 copy 3";
+import { About9 } from "./components/about1 copy 2";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -27,12 +36,16 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <About1 data={landingPageData.About} />
+-     <About2 data={landingPageData.About1} reverse />
+      <About3 data={landingPageData.About2} />
+      <About4 data={landingPageData.About3} reverse />
+      <About5 data={landingPageData.About4} />
+-     <About6 data={landingPageData.About5} reverse />
+      <About7 data={landingPageData.About6} />
+      <About8 data={landingPageData.About7} reverse />
+      <About9 data={landingPageData.About8} />
       <Contact data={landingPageData.Contact} />
     </div>
   );
